@@ -20,11 +20,11 @@ class CurrencyItem extends React.Component {
         switch(this.state.currency) {
             case 'USD':
                 //1 platinum == 0.067 (dollars, or 6.7 cents)
-                this.setState({currency_value: Math.round(platinum_value * 0.067, 2)});
+                this.setState({currency_value: (platinum_value * 0.067).toFixed(2)});
                 break;
             case 'GBP':
                 //1 platinum == 0.057 (pounds, or 5.7 pence)
-                this.setState({currency_value: Math.round(platinum_value * 0.057, 2)});
+                this.setState({currency_value: (platinum_value * 0.057).toFixed(2)});
                 break;
             default:
                 break;
