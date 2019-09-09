@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  background-color: #282c34;
+  color: white;
+  text-align: center;
+}
+
+#platinum-input, span {
+  font-size: 1.5em;
+}
+
+#platinum-input {
+  background-color: #282a34;
+  color: white;
+}
+
+#currency-container {
+  width: auto;
+  max-width: 40vw;
+  margin: 0 auto;
+}
