@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/wf-plat/static/css/main.30c713a0.chunk.css",
-    "main.js": "/wf-plat/static/js/main.6bb89a48.chunk.js",
-    "main.js.map": "/wf-plat/static/js/main.6bb89a48.chunk.js.map",
+    "main.js": "/wf-plat/static/js/main.438f7a25.chunk.js",
+    "main.js.map": "/wf-plat/static/js/main.438f7a25.chunk.js.map",
     "runtime~main.js": "/wf-plat/static/js/runtime~main.a4b5d517.js",
     "runtime~main.js.map": "/wf-plat/static/js/runtime~main.a4b5d517.js.map",
     "static/js/2.13e2cdc7.chunk.js": "/wf-plat/static/js/2.13e2cdc7.chunk.js",
     "static/js/2.13e2cdc7.chunk.js.map": "/wf-plat/static/js/2.13e2cdc7.chunk.js.map",
     "index.html": "/wf-plat/index.html",
-    "precache-manifest.cf710c8fb51f99c841f81569aa5b3eb3.js": "/wf-plat/precache-manifest.cf710c8fb51f99c841f81569aa5b3eb3.js",
+    "precache-manifest.4f2f76dab5fbf06da7309cf7cfc18392.js": "/wf-plat/precache-manifest.4f2f76dab5fbf06da7309cf7cfc18392.js",
     "service-worker.js": "/wf-plat/service-worker.js",
     "static/css/main.30c713a0.chunk.css.map": "/wf-plat/static/css/main.30c713a0.chunk.css.map"
   }
