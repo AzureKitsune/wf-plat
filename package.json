@@ -2,7 +2,7 @@
   "name": "wf-plat",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://AzureKitsune.github.io/wf-plat/",
+  "homepage": "https://azurekitsune.github.io/wf-plat/public/",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "react": "^16.9.0",
