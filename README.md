@@ -5,3 +5,5 @@ wf-plat is a simple app/website that takes a given amount of platinum (in-game p
 For example: 75 platinum == $5.0
 
 I created this project to help me learn React JS and get better at web development. I'm quite rusty so please bear with me. 
+
+Check out the live version [here](https://azurekitsune.github.io/wf-plat/index.html).
