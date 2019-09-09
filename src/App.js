@@ -65,8 +65,8 @@ class App extends React.Component {
               </tr>
               <tr>
                 <td>75</td>
-                <td>$5.0</td>
-                <td></td>
+                <td>$5.03</td>
+                <td>£4.28</td>
               </tr>
             </table>
 

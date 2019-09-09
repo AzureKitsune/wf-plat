@@ -5,6 +5,10 @@ body {
   text-align: center;
 }
 
+table {
+  margin: 0 auto;
+}
+
 #platinum-input, span {
   font-size: 1.5em;
 }
