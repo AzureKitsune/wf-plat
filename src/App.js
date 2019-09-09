@@ -56,6 +56,20 @@ class App extends React.Component {
                 update_callback={this.setUpdateFunction} />
             </div>
 
+            <h3>Common Conversions</h3>
+            <table>
+              <tr>
+                <th>Platinum</th>
+                <th>$</th>
+                <th>£</th>
+              </tr>
+              <tr>
+                <td>75</td>
+                <td>$5.0</td>
+                <td></td>
+              </tr>
+            </table>
+
           </div>
         </header>
       </div>
