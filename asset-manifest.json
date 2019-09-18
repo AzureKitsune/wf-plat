@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/wf-plat/static/css/main.348632dc.chunk.css",
-    "main.js": "/wf-plat/static/js/main.7f54f3aa.chunk.js",
-    "main.js.map": "/wf-plat/static/js/main.7f54f3aa.chunk.js.map",
+    "main.css": "/wf-plat/static/css/main.6e3b885c.chunk.css",
+    "main.js": "/wf-plat/static/js/main.f437fd54.chunk.js",
+    "main.js.map": "/wf-plat/static/js/main.f437fd54.chunk.js.map",
     "runtime~main.js": "/wf-plat/static/js/runtime~main.a4b5d517.js",
     "runtime~main.js.map": "/wf-plat/static/js/runtime~main.a4b5d517.js.map",
     "static/js/2.13e2cdc7.chunk.js": "/wf-plat/static/js/2.13e2cdc7.chunk.js",
     "static/js/2.13e2cdc7.chunk.js.map": "/wf-plat/static/js/2.13e2cdc7.chunk.js.map",
     "index.html": "/wf-plat/index.html",
-    "precache-manifest.43cb024288bbab7ef6a4dcfe482577fb.js": "/wf-plat/precache-manifest.43cb024288bbab7ef6a4dcfe482577fb.js",
+    "precache-manifest.5c62ae84caec535d7a1c1959c7a210f5.js": "/wf-plat/precache-manifest.5c62ae84caec535d7a1c1959c7a210f5.js",
     "service-worker.js": "/wf-plat/service-worker.js",
-    "static/css/main.348632dc.chunk.css.map": "/wf-plat/static/css/main.348632dc.chunk.css.map"
+    "static/css/main.6e3b885c.chunk.css.map": "/wf-plat/static/css/main.6e3b885c.chunk.css.map"
   }
 }
