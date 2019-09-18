@@ -45,30 +45,33 @@ class App extends React.Component {
 
             <hr />
 
-            <h2>Currency:</h2>
+            <div id='content-container'>
+              <div id='currency-container'>
+                <CurrencyItem currency='USD' currency_symbol='$' 
+                  currency_value={this.state.entered_platinum} 
+                  update_callback={this.setUpdateFunction} />
+                <CurrencyItem currency='GBP' currency_symbol='£' 
+                  currency_value={this.state.entered_platinum} 
+                  update_callback={this.setUpdateFunction} />
+              </div>
 
-            <div id='currency-container'>
-              <CurrencyItem currency='USD' currency_symbol='$' 
-                currency_value={this.state.entered_platinum} 
-                update_callback={this.setUpdateFunction} />
-              <CurrencyItem currency='GBP' currency_symbol='£' 
-                currency_value={this.state.entered_platinum} 
-                update_callback={this.setUpdateFunction} />
+              <div id='conversions-container'>
+                <h3>Common Conversions</h3>
+                <table>
+                  <tr>
+                    <th>Platinum</th>
+                    <th>$</th>
+                    <th>£</th>
+                  </tr>
+                  <tr>
+                    <td>75</td>
+                    <td>$5.03</td>
+                    <td>£4.28</td>
+                  </tr>
+                </table>
+              </div>
+
             </div>
-
-            <h3>Common Conversions</h3>
-            <table>
-              <tr>
-                <th>Platinum</th>
-                <th>$</th>
-                <th>£</th>
-              </tr>
-              <tr>
-                <td>75</td>
-                <td>$5.03</td>
-                <td>£4.28</td>
-              </tr>
-            </table>
 
           </div>
         </header>
