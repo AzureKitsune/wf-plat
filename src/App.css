@@ -23,6 +23,23 @@ table {
   margin: 0 auto;
 }
 
+#platinum-input {
+  background-color: #3f474e;
+  border: none;
+  border-radius: 1em;
+  padding: 5px 15px;
+}
+
+#conversions-table {
+  background-color: #3f474e;
+  border-radius: 1em;
+  padding: 5px;
+}
+
+#conversions-table th {
+
+}
+
 
 /* for phone screens */
 @media screen and (min-width: 320px) {

@@ -43,7 +43,7 @@ class App extends React.Component {
 
             <h2>Platinum Amount:</h2>
             <input type='number' id='platinum-input' 
-            placeholder='Enter platinum amount'
+            placeholder='Enter Platinum amount'
             value={this.state.entered_platinum > 0 ? this.state.entered_platinum : null}
             onChange={(e) => this.updatePlatinum(e.target.value)} />
 
@@ -62,27 +62,31 @@ class App extends React.Component {
 
               <div id='conversions-container'>
                 <h3>Common Conversions</h3>
-                <table>
-                  <tr>
-                    <th>Platinum</th>
-                    <th>$</th>
-                    <th>£</th>
-                  </tr>
-                  <tr>
-                    <td><a href='#' onClick={(e) => this.updatePlatinum(75)}>75</a></td>
-                    <td>$5.03</td>
-                    <td>£4.28</td>
-                  </tr>
-                  <tr>
-                    <td><a href='#' onClick={(e) => this.updatePlatinum(170)}>170</a></td>
-                    <td>$11.39</td>
-                    <td>£9.69</td>
-                  </tr>
-                  <tr>
-                    <td><a href='#' onClick={(e) => this.updatePlatinum(370)}>370</a></td>
-                    <td>$24.79</td>
-                    <td>£21.09</td>
-                  </tr>
+                <table id='conversions-table'>
+                  <thead>
+                    <tr>
+                      <th>Platinum</th>
+                      <th>$</th>
+                      <th>£</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><a href='#' onClick={(e) => this.updatePlatinum(75)}>75</a></td>
+                      <td>$5.03</td>
+                      <td>£4.28</td>
+                    </tr>
+                    <tr>
+                      <td><a href='#' onClick={(e) => this.updatePlatinum(170)}>170</a></td>
+                      <td>$11.39</td>
+                      <td>£9.69</td>
+                    </tr>
+                    <tr>
+                      <td><a href='#' onClick={(e) => this.updatePlatinum(370)}>370</a></td>
+                      <td>$24.79</td>
+                      <td>£21.09</td>
+                    </tr>
+                  </tbody>
                 </table>
               </div>
 

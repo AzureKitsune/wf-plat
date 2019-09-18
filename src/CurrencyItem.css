@@ -1,6 +1,10 @@
 #currency-item-wrapper {
     margin-top: 20px;
     margin-right: 20px;
+    margin-left: 20px;
     width: auto;
-    text-align: center;
+    text-align: left;
+    padding-left: 20px;
+    background-color: #3f474e;
+    border-radius: 1em;
 }
