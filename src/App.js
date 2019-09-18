@@ -15,6 +15,8 @@ class App extends React.Component {
     this.setUpdateFunction = this.setUpdateFunction.bind(this);
   }
   updatePlatinum(value) {
+    if (value === this.state.entered_platinum || value === null) return;
+
     //Sets the entered amount of platinum into this component's state.
     this.setState({entered_platinum: value});
 
@@ -31,6 +33,7 @@ class App extends React.Component {
     funcs[currency] = func;
     this.setState({currency_funcs: funcs});
   }
+
   render(props) {
     return (
       <div className="App">
@@ -41,12 +44,14 @@ class App extends React.Component {
             <h2>Platinum Amount:</h2>
             <input type='number' id='platinum-input' 
             placeholder='Enter platinum amount'
+            value={this.state.entered_platinum > 0 ? this.state.entered_platinum : null}
             onChange={(e) => this.updatePlatinum(e.target.value)} />
 
             <hr />
 
             <div id='content-container'>
               <div id='currency-container'>
+                <h3>Results</h3>
                 <CurrencyItem currency='USD' currency_symbol='$' 
                   currency_value={this.state.entered_platinum} 
                   update_callback={this.setUpdateFunction} />
@@ -64,9 +69,19 @@ class App extends React.Component {
                     <th>£</th>
                   </tr>
                   <tr>
-                    <td>75</td>
+                    <td><a href='#' onClick={(e) => this.updatePlatinum(75)}>75</a></td>
                     <td>$5.03</td>
                     <td>£4.28</td>
+                  </tr>
+                  <tr>
+                    <td><a href='#' onClick={(e) => this.updatePlatinum(170)}>170</a></td>
+                    <td>$11.39</td>
+                    <td>£9.69</td>
+                  </tr>
+                  <tr>
+                    <td><a href='#' onClick={(e) => this.updatePlatinum(370)}>370</a></td>
+                    <td>$24.79</td>
+                    <td>£21.09</td>
                   </tr>
                 </table>
               </div>
