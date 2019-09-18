@@ -9,6 +9,14 @@ table {
   margin: 0 auto;
 }
 
+a {
+  font-weight: 600;
+  color: yellow;
+}
+a:visited {
+  color: red;
+}
+
 #platinum-input, span {
   font-size: 1.5em;
 }
